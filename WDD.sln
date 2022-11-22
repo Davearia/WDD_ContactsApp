@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WDD_WebApi", "WDD\WDD_WebApi.csproj", "{4206F471-0F78-4242-A01B-2F2335303F0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WDD_Data", "Database\WDD_Data.csproj", "{B886D42A-9A27-4F8F-A767-29DCCE00C9E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDD_Client", "WDD_Client\WDD_Client.csproj", "{BA76B499-A3CB-4E83-9D52-410268174293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4206F471-0F78-4242-A01B-2F2335303F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4206F471-0F78-4242-A01B-2F2335303F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4206F471-0F78-4242-A01B-2F2335303F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4206F471-0F78-4242-A01B-2F2335303F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B886D42A-9A27-4F8F-A767-29DCCE00C9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B886D42A-9A27-4F8F-A767-29DCCE00C9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B886D42A-9A27-4F8F-A767-29DCCE00C9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B886D42A-9A27-4F8F-A767-29DCCE00C9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA76B499-A3CB-4E83-9D52-410268174293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA76B499-A3CB-4E83-9D52-410268174293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA76B499-A3CB-4E83-9D52-410268174293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA76B499-A3CB-4E83-9D52-410268174293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC44B217-3A58-4A8C-AA30-DC85B4A20156}
+	EndGlobalSection
+EndGlobal

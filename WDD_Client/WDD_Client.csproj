@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="client\dist\**" />
+    <Content Remove="client\dist\**" />
+    <EmbeddedResource Remove="client\dist\**" />
+    <None Remove="client\dist\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="client\src\app\views\contactsListView.component.ts" />
+    <None Remove="client\src\app\views\hero.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="client\src\app\views\contactsListView.component.ts" />
+    <TypeScriptCompile Include="client\src\app\views\hero.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="client\src\app\shared\" />
+  </ItemGroup>
+
+</Project>
